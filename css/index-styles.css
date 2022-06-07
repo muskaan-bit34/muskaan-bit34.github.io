@@ -73,7 +73,7 @@ html{
     border-radius: 100%;
     height: 200px;
     width: 200px;
-    margin: -50px 30px;
+    margin: -100px 30px;
 }
 .slideshow-container{
     height: 350px;
@@ -123,4 +123,28 @@ html{
 @keyframes fade{
     from {opacity: 0.4}
     to {opacity: 1;}
+}
+
+.treatmentsbar{
+    width: 100%;
+    height: 185px;
+    margin-top: -18px;
+    background: radial-gradient(circle at top, rgba(48,75,157,1) 0%, rgba(45,66,161,1) 15%, rgba(46,66,172,1) 39%, rgba(25,25,152,1) 69%, rgba(17,14,103,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 20px;
+}
+.treatmentsbar img{
+    height: 100px;
+    width: auto;
+}
+.treatmentsbar p{
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 10px;
+}
+.treatmentsbar a{
+    text-decoration: none;
 }
